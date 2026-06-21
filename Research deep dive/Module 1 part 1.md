@@ -1,8 +1,7 @@
-Laser-induced plasma ignition
+## Laser-induced plasma ignition
 
 Laser-induced breakdown in air (LIBA) generates visible plasmas by focusing high-peak-power pulsed lasers to a small focal volume, where the field strength ionizes gas molecules and produces a luminous microplasma. Typical approaches employ femtosecond or nanosecond pulses in the ultraviolet (UV) or near-infrared (NIR) to reach the threshold irradiance for multiphoton and cascade ionization. LIBA has been applied to volumetric mid-air displays by raster-scanning the focused beam through a 3D workspace; commercial demonstrations (e.g., Burton Inc.) show feasibility for point-wise voxel generation. Key system requirements and constraints include: pulse energy and duration sufficient to exceed breakdown threshold without causing unwanted ablation; pulse repetition rate (PRR) compatible with perceptual persistence (order 10^4 points s^-1 for continuous imagery); beam steering bandwidth and accuracy to address a 50 × 50 × 50 cm^3 volume; and thermal management to prevent cumulative heating of optical components and ambient air. Practical beam-deflection architectures combine high-speed XY deflection (acousto-optic deflectors or galvanometer mirror systems) with dynamic focal-shift optics for Z-axis control (e.g., electrically tunable lenses, ultrasonic lenses, or varifocal elements). Safety considerations (ocular and skin exposure, stray plasma debris) and regulatory compliance represent additional engineering constraints. (Refs: LIBA fundamentals, volumetric display demos.)
-
-![Uploading image.png…]()
+<img width="1162" height="749" alt="image" src="https://github.com/user-attachments/assets/9dea561c-80e7-4dc7-97f6-3eebc673f2ea" />
 
 Photophoretic trapping of particles
 
