@@ -10,7 +10,7 @@
 
 An **acousto-optic deflector (AOD)** is a device that uses the interaction between acoustic (sound) waves and optical (light) waves to deflect or redirect a laser beam to different angular positions. The device operates on the principle of **Bragg diffraction**, where an acoustic wave propagating through a crystalline medium creates a periodic modulation of the refractive index, forming a transient acoustic grating that diffracts incident light [web:5].
 
-In operation, the power driving the acoustic transducer is maintained at a constant level while the **acoustic frequency is varied** to deflect the beam to different angular positions. The diffracted angle is **linearly proportional to the RF frequency**: higher frequency → larger deflection angle [web:6].
+In operation, the power driving the acoustic transducer is maintained at a constant level while the **acoustic frequency is varied** to deflect the beam to different angular positions. The diffracted angle is **linearly proportional to the RF frequency**: higher frequency leads to larger deflection angle [web:6].
 
 ---
 
@@ -30,9 +30,9 @@ In operation, the power driving the acoustic transducer is maintained at a const
 
 ### 3.1 High-Speed Laser Beam Scanning
 
-- **Laser micromachining & material processing** [web:3][web:9]: Enables precise feature shaping with power modulation and through-the-lens alignment
+- **Laser micromachining and material processing** [web:3][web:9]: Enables precise feature shaping with power modulation and through-the-lens alignment
 - **Laser-directed energy weapons (LDEW)** [web:3]: Rapid targeting in rugged environments
-- **Photolithography & vector scanning** [web:6]: Continuous beam deflection for pattern generation
+- **Photolithography and vector scanning** [web:6]: Continuous beam deflection for pattern generation
 
 ### 3.2 Imaging and Neuroscience
 
@@ -50,7 +50,7 @@ In operation, the power driving the acoustic transducer is maintained at a const
 For **mid-air volumetric displays** targeting a 50×50×50 cm³ workspace:
 
 - AODs provide **no-moving-part 3-axis beam deflection** (XY via dual AODs, Z via focal shifting)
-- Required scan speed: **~10,000+ points/second** for persistence of vision [original query]
+- Required scan speed: **approximately 10,000+ points per second** for persistence of vision
 - AODs exceed this requirement (>250 MHz operation) but face trade-offs in **diffraction efficiency**, **acoustic transit time**, and **thermal loading** [web:3][web:7]
 
 ---
@@ -60,10 +60,10 @@ For **mid-air volumetric displays** targeting a 50×50×50 cm³ workspace:
 | Technology | Bandwidth | Spatial Resolution | Scan Range | Thermal Load | Complexity |
 |------------|-----------|-------------------|------------|--------------|------------|
 | **AOD** | >250 MHz | High (100–10,000 spots) | Moderate | Moderate (acoustic heating) | High (RF driver, frequency control) |
-| **Galvanometer mirrors** | ~1–10 kHz | High | Large | Low | Moderate (mechanical control) |
+| **Galvanometer mirrors** | 1–10 kHz | High | Large | Low | Moderate (mechanical control) |
 | **Electro-optic deflector (EOD)** | >1 GHz | Moderate | Small | Low | Very high (high-voltage drivers) |
 
-AODs are superior for **random-access, high-speed scanning** but have limited angular range compared to galvo systems. Hybrid architectures (galvo for coarse XY + AOD for fine rapid scanning) are common [web:9].
+AODs are superior for **random-access, high-speed scanning** but have limited angular range compared to galvo systems. Hybrid architectures (galvo for coarse XY and AOD for fine rapid scanning) are common [web:9].
 
 ---
 
@@ -71,7 +71,7 @@ AODs are superior for **random-access, high-speed scanning** but have limited an
 
 ### 5.1 Acoustic Transit Time Limitation
 
-The acoustic wave propagation time through the crystal limits the **minimum switching time** between angular positions. For a crystal of length *L* and acoustic velocity *vₐ*, the transit time is *τ = L/vₐ*. This creates a fundamental trade-off between **bandwidth** and **resolution** [web:7].
+The acoustic wave propagation time through the crystal limits the **minimum switching time** between angular positions. For a crystal of length L and acoustic velocity vₐ, the transit time is τ = L/vₐ. This creates a fundamental trade-off between **bandwidth** and **resolution** [web:7].
 
 ### 5.2 Thermal Management
 
@@ -88,6 +88,17 @@ Research efforts focus on extending **diffraction efficiency**, reducing **acous
 
 ---
 
+## 6. Suitability for Volumetric Display Applications
+
+For a **glassless, reflector-free volumetric display** generating voxels via laser-induced plasma or photophoretic trapping:
+
+| Requirement | AOD Feasibility |
+|-------------|-----------------|
+| **Scan speed ≥10,000 points/s** | Exceeds requirement (250 MHz) |
+| **3D workspace (50 cm³)** | Requires hybrid XY-AOD plus Z-focus system |
+| **Sub-millimeter voxel localization** | High spatial resolution (100–10,000 spots) |
+| **Thermal robustness** | Requires active cooling for continuous operation |
+| **Safety (no moving parts)** | Solid-state, vibration-free |
 
 **Recommendation**: AODs are highly suitable for **high-speed fine scanning** in volumetric displays but should be combined with **galvanometer mirrors for coarse positioning** and **focal-shift optics (e.g., tunable lenses) for Z-axis control** to achieve full 3D workspace coverage.
 
@@ -106,3 +117,4 @@ Research efforts focus on extending **diffraction efficiency**, reducing **acous
 
 ---
 
+**Note for your research**: AODs are a critical component for the **beam-deflection architecture** in your volumetric display concept. Pair them with RF drivers capable of rapid frequency synthesis (approximately 10–100 MHz sweep) and thermal stabilization for reliable voxel positioning at greater than 10,000 points per second.
