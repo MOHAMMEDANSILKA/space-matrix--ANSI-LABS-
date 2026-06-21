@@ -1,4 +1,4 @@
-##Problem statement
+## Problem statement
 
 Objective: Develop and validate a scalable, reflector-free volumetric display that generates and dynamically positions visible voxels directly in free air (no screens, mirrors, or transparent surfaces) within a bounded workspace of up to 50 × 50 × 50 cm^3, enabling continuous 3D imagery by composing voxels into lines, surfaces, and volumetric scenes.
 
