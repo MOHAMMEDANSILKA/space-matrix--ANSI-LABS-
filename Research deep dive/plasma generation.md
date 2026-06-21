@@ -1,4 +1,4 @@
-Research questions
+##Research questions
 
 Voxel generation: Which physical mechanism(s) can reliably and repeatably produce visible, localized voxels in free air at luminance and lifetime compatible with human-perception-based display requirements, while minimizing safety risks and material byproducts?
 
