@@ -1,6 +1,5 @@
----
-** Acousto-Optic Deflector (AOD)**
----
+# Acousto-Optic Deflector (AOD)**
+
 <img width="1200" height="630" alt="Bragg Diffraction Diagram for Acousto-Optic Deflector" src="https://github.com/user-attachments/assets/920ca696-9e88-4bd6-a3d4-b8a3902f7f6a" />
 
 ---
