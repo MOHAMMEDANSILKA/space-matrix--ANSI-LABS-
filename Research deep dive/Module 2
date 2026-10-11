@@ -1,0 +1,21 @@
+1. What is a volumetric display?
+
+A conventional screen places picture elements—pixels—on a flat surface. Each pixel has a position (x,y).
+
+A volumetric display places picture elements—voxels—through a three-dimensional region. Each voxel has a position:
+
+(x,y,z)
+
+Here, z adds depth.
+
+Imagine drawing a cube using tiny luminous dots distributed through a transparent block. The dots occupy actual locations at different depths. Some systems produce them simultaneously; others rapidly move or scan a luminous point through those locations.
+
+Researchers have demonstrated a display that moves a trapped particle through space while illuminating it with red, green, and blue light. The particle scatters that light toward viewers. 
+
+2. Why does a point become visible?
+
+Your eye detects light that enters it.
+
+Think about a torch shining across a room. You can see the illuminated wall because the wall redirects some light toward your eyes. In dusty air, you may also see the beam because particles redirect light along its path.
+
+That gives us two useful mechanisms:
